@@ -40,7 +40,7 @@ export default class Label extends PureComponent {
     }),
 
     style: Text.propTypes.style,
-    label: PropTypes.string,
+    label: PropTypes.object,
   }
 
   render() {
